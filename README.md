@@ -6,14 +6,15 @@ I use this in GNU/Linux only. I've made a few attempts to use it in Windows, how
 
 ### So for GNU/Linux...
 
-1. $ mkdir -p ~/.config/SciTE/Solarized
-2. Copy SolarDark.properties & SolarLight.properties to that directory
+1. $ mkdir -p ~/.config/scite/themes/Solarized/theme
+2. Copy theme.properties to that directory
 3. In SciTE select Options -> Open User Options File
-4. Add the two following lines to the top of your user options file (note that I have Solarized Dark enabled):
+4. Add the three following lines to the top of your user options file (note that I have Solarized Dark enabled):
   
 ```
-import .config/SciTE/Solarized/SolarDark
-# import .config/SciTE/Solarized/SolarLight
+SOLAR.DARK=1
+#SOLAR.LIGHT=1
+import .config/scite/themes/Solarized/theme
 ```
 
 
